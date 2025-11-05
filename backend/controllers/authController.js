@@ -47,5 +47,3 @@ exports.loginAdmin = async (req, res) => {
         res.status(500).json({ error: 'Login failed' });
     }
 };
-
-
